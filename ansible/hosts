@@ -1,0 +1,14 @@
+[control]
+box01  ansible_connection=local var_hostname=box01
+
+[workers]
+meeseeks01  ansible_connection=ssh  var_hostname=meeseeks01 var_disk=sdb1 var_uuid=993589cc-8293-4fa7-8078-3a9102a38c41
+meeseeks02  ansible_connection=ssh  var_hostname=meeseeks02 var_disk=sda1 var_uuid=e3acdd5b-2eda-4e5c-a6a0-0aa73d14b514
+meeseeks03  ansible_connection=ssh  var_hostname=meeseeks03 var_disk=sda1 var_uuid=a93db36b-f76a-498e-9022-d63db1193642
+meeseeks04  ansible_connection=ssh  var_hostname=meeseeks04 var_disk=sda1 var_uuid=d424755b-8844-4103-811c-3dee5a762318
+meeseeks05  ansible_connection=ssh  var_hostname=meeseeks05 var_disk=sda1 var_uuid=cd8e61e8-617a-4f64-a98c-46f8355d3581
+meeseeks06  ansible_connection=ssh  var_hostname=meeseeks06 var_disk=sda1 var_uuid=e338c8d6-1104-4936-bafb-74e821f2f29f
+
+[box:children]
+control
+workers

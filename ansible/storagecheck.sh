@@ -1,0 +1,5 @@
+ansible box -b -m apt -a "name=nfs-common state=present"
+ansible box -b -m apt -a "name=open-iscsi state=present"
+ansible box -b -m apt -a "name=util-linux state=present"
+ansible box -b -m apt -a "name=jq state=present" 
+ansible box -b -m apt -a "name=cryptsetup state=present" 

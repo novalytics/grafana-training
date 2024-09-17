@@ -1,0 +1,16 @@
+127.0.0.1 localhost
+127.0.1.1 box01 box01.local
+#::1 localhost ip6-localhost ip6-loopback
+#ff02::1 ip6-allnodes
+#ff02::2 ip6-allrouters
+
+192.168.1.100   box01 box01.local
+192.168.1.101   sparky01 sparky01.local
+192.168.1.111   meeseeks01 meeseeks01.local
+192.168.1.112   meeseeks02 meeseeks02.local
+192.168.1.113   meeseeks03 meeseeks03.local
+192.168.1.114   meeseeks04 meeseeks04.local
+192.168.1.115   meeseeks05 meeseeks05.local
+192.168.1.116   meeseeks06 meeseeks06.local
+
+192.168.1.117   morty morty.local
